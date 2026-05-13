@@ -6,6 +6,7 @@ import { personalInfo } from "../data";
 const navLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
+  { name: "Profiles", href: "#coding-profiles" },
   { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
   { name: "Education", href: "#education" },

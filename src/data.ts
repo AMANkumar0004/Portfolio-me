@@ -105,3 +105,30 @@ export const skills = {
   languages: ["Java", "JavaScript", "TypeScript", "HTML5", "CSS3"],
   tools: ["MERN Stack", "Socket.io", "Docker", "Git", "GitHub", "VS Code"],
 };
+
+export type CodingProfile = {
+  title: string;
+  subtitle: string;
+  username: string;
+  profileUrl: string;
+  /** Optional direct preview URL (e.g. LeetCard SVG). If omitted, a page screenshot preview is used. */
+  previewSrc?: string;
+};
+
+export const codingProfiles: CodingProfile[] = [
+  {
+    title: "LeetCode",
+    subtitle: "Problems, ratings, and last 52 weeks submission heatmap (live via LeetCard).",
+    username: "AmanKumar_2004",
+    profileUrl: "https://leetcode.com/u/AmanKumar_2004/",
+    previewSrc:
+      "https://leetcard.jacoblin.cool/AmanKumar_2004?theme=dark&font=noto_sans&extension=heatmap",
+  },
+  {
+    title: "takeUforward",
+    subtitle: "DSA progress, topics, and platform stats — preview from your saved profile screenshot.",
+    username: "Aman93509",
+    profileUrl: "https://takeuforward.org/profile/Aman93509",
+    previewSrc: "/tuf-profile.png",
+  },
+];
