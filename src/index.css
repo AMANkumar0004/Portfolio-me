@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+  body, body * {
+    cursor: none !important;
+  }
+}
+
+.name-hover-effect {
+  color: transparent;
+  -webkit-text-stroke: 1px #F5F5F5;
+  display: inline-block;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.name-hover-effect:hover {
+  color: #D4FF00;
+  -webkit-text-stroke: 1px #D4FF00;
+  transform: scale(1.05) rotate(-2deg);
+  text-shadow: 0 0 40px rgba(212, 255, 0, 0.3);
+}
