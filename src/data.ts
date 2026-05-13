@@ -18,6 +18,19 @@ export const education = {
 
 export const projects = [
   {
+    title: "Roast My Site",
+    subtitle: "AI-powered roast and suggestions for any deployed URL.",
+    link: "https://roastme-delta.vercel.app/",
+    image: "/roastme.png",
+    stack: ["React", "TypeScript", "Vercel"],
+    date: "May 2026",
+    details: [
+      "Built a Vercel-hosted experience where users receive playful, AI-written roasts from their prompts or inputs.",
+      "Implemented a responsive layout with loading and error handling around generative API calls.",
+      "Configured production deployment with environment variables for secure API access."
+    ]
+  },
+  {
     title: "ChatApp",
     subtitle: "Real-Time Chat Application",
     link: "https://chat-app-psi-teal.vercel.app/",
